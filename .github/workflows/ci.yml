@@ -1,0 +1,37 @@
+# Pipeline de Integração Contínua — API de Ingressos para Eventos
+# Disparado automaticamente a cada push na branch main
+
+name: CI - API Ingressos
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest  # Executa em uma máquina virtual Ubuntu
+
+    steps:
+      # PASSO 1: Baixa o código do repositório para a máquina virtual
+      - name: Checkout do código
+        uses: actions/checkout@v4
+
+      # PASSO 2: Instala o Python 3.11 no ambiente de execução
+      - name: Configurar Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # PASSO 3: Instala Flask, pytest e flake8 listados no requirements.txt
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
+
+      # PASSO 4: Análise estática — verifica qualidade e padrões do código
+      # Etapa adicional obrigatória: detecta erros de sintaxe e más práticas
+      - name: Lint com flake8
+        run: flake8 api/app.py --max-line-length=100
+
+      # PASSO 5: Executa os 4 testes unitários com saída detalhada (-v)
+      - name: Executar testes unitários
+        run: pytest api/tests/ -v
