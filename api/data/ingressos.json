@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "evento": "Show Roberto Carlos",
+    "local": "Allianz Parque — São Paulo, SP",
+    "data": "2026-08-15",
+    "hora": "21:00",
+    "categoria": "Pista",
+    "preco": 180.00,
+    "disponivel": true
+  },
+  {
+    "id": 2,
+    "evento": "Show Roberto Carlos",
+    "local": "Allianz Parque — São Paulo, SP",
+    "data": "2026-08-15",
+    "hora": "21:00",
+    "categoria": "VIP",
+    "preco": 420.00,
+    "disponivel": true
+  },
+  {
+    "id": 3,
+    "evento": "Festival Lollapalooza Brasil",
+    "local": "Autódromo de Interlagos — São Paulo, SP",
+    "data": "2026-09-20",
+    "hora": "12:00",
+    "categoria": "Pista",
+    "preco": 650.00,
+    "disponivel": true
+  },
+  {
+    "id": 4,
+    "evento": "Festival Lollapalooza Brasil",
+    "local": "Autódromo de Interlagos — São Paulo, SP",
+    "data": "2026-09-20",
+    "hora": "12:00",
+    "categoria": "Camarote",
+    "preco": 1200.00,
+    "disponivel": false
+  },
+  {
+    "id": 5,
+    "evento": "Peça Teatral — O Auto da Compadecida",
+    "local": "Teatro Alfa — São Paulo, SP",
+    "data": "2026-07-10",
+    "hora": "20:00",
+    "categoria": "Plateia A",
+    "preco": 95.00,
+    "disponivel": true
+  },
+  {
+    "id": 6,
+    "evento": "Peça Teatral — O Auto da Compadecida",
+    "local": "Teatro Alfa — São Paulo, SP",
+    "data": "2026-07-10",
+    "hora": "20:00",
+    "categoria": "Plateia B",
+    "preco": 65.00,
+    "disponivel": true
+  },
+  {
+    "id": 7,
+    "evento": "UFC 310 — Card Brasileiro",
+    "local": "Jeunesse Arena — Rio de Janeiro, RJ",
+    "data": "2026-10-03",
+    "hora": "19:00",
+    "categoria": "Ringside",
+    "preco": 2500.00,
+    "disponivel": true
+  },
+  {
+    "id": 8,
+    "evento": "UFC 310 — Card Brasileiro",
+    "local": "Jeunesse Arena — Rio de Janeiro, RJ",
+    "data": "2026-10-03",
+    "hora": "19:00",
+    "categoria": "Arquibancada",
+    "preco": 320.00,
+    "disponivel": true
+  },
+  {
+    "id": 9,
+    "evento": "Expo Tecnologia 2026",
+    "local": "Expo Center Norte — São Paulo, SP",
+    "data": "2026-11-18",
+    "hora": "09:00",
+    "categoria": "Entrada Geral",
+    "preco": 50.00,
+    "disponivel": true
+  },
+  {
+    "id": 10,
+    "evento": "Expo Tecnologia 2026",
+    "local": "Expo Center Norte — São Paulo, SP",
+    "data": "2026-11-18",
+    "hora": "09:00",
+    "categoria": "VIP com Workshop",
+    "preco": 250.00,
+    "disponivel": false
+  }
+]
